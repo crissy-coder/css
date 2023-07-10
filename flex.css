@@ -1,0 +1,403 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#imges{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   margin: auto;
+
+}
+#images > img{
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    border: 5px solid black;
+}
+
+#sidetilte{
+    text-align: center;
+    
+}
+
+#subcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    
+   margin-left: 8%;
+   
+}
+#forimage {
+   
+   
+    width: 310px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 18px;
+    margin: 3%;
+}
+#imgc{
+    overflow: hidden;
+    
+     margin: 2%;
+    width: 300px;
+    height: 200px;
+}
+#text2{
+    position: static;
+    margin-top: 0%;
+    padding-left: 5px;
+    font-size: 18px;
+    color: #2e2ee4;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* #text1{
+    position: static;
+    margin-top: -10%;
+    padding-left: 5px;
+    font-size: 18px;
+    color: #2e2ee4;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+#menters{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 2%;
+}
+#menters >p{
+    font-size: 16px;
+    margin-top: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    
+}
+#menters1 >p{
+    margin-left: -362%;
+    font-size: 16px;
+    margin-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+  
+#mailpart{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 65px;
+    margin-top: 8px;
+    border: none;
+    border-bottom-style: ridge;
+    box-shadow: #000000;
+}
+
+#mailpart > #subpart1{
+    display: flex;
+    flex-wrap: wrap;
+} 
+#subpart  {
+    list-style: none;
+    font-size: 22px;
+    margin-top: -3px;
+    
+
+}
+#mail{
+    color: #2e2c2c;
+}
+#subpart1{
+    list-style-type: none;
+    margin-left: 48%;
+   
+}
+li > a{
+    text-decoration: none;
+    
+}
+#subpart1 li a {
+    padding-left:35px;
+    font-size: 18px;
+    border: 0.5px inset black;
+    padding: 12px;
+    margin-left: 5px;
+
+}
+#subpart img {
+    width: 80px;
+    height: auto;
+    position: relative;
+    margin-top: 2%;
+}
+#subpart1 li #btnn {
+    margin-left: 25px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: -3% !important;
+    background-color: #4d4dbf;
+    color: white;
+}
+#subpart1 #forwork{
+    border: none;
+}
+#subpart1 #forwork:hover{
+    background-color: #e3d8d8;
+    transition: 0.5s;
+}
+#subpart1 li a:hover {
+    background-color: #e3d8d8;
+    transition: 0.5s;
+}
+#subpart1 li #btnn:hover{
+    background-color: #0909ff;
+}
+
+
+#sectiongmail{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#sec1{
+    text-align: center;
+    margin-top: 13%;
+    
+}
+#gmailtitle{
+    font-size: 45px;
+     margin-left: 20%;
+     margin-right: 28%;
+     text-align: left;
+}
+#tagline {
+    padding-left: 20%;
+    padding-right: 25%;
+    text-align: justify;
+}
+
+
+#ran{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+#ran #btnn{
+    background-color:#4d4dbf;
+    color: white;
+    font-size: 17px;
+   
+}
+#ran ul {
+    list-style: none;
+}
+#ran ul li a {
+    text-decoration: none;
+    font-size:18px ;
+    padding: 15px;
+
+} 
+#ran #btnn:hover{
+    background-color: #0707ef;
+ 
+}
+#ran ul li a:hover{
+    background-color: #e3d8d8;
+    transition: 0.5s;
+}
+#unname{
+    width: 800px;
+    height: auto;
+    float: left;
+}
+
+#darkmode{
+    background-color: #000000;
+    height:650px;
+}
+
+#gog{
+    color: white;
+    font-size: 180px;
+    text-align: center;
+    padding-top: 15%;
+}
+#inputicon > #ico{
+    position:absolute;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+#ico{
+    color: white;
+    position: absolute;
+    padding-left: 30%;
+}
+#micro{
+    width: 70px;
+    position: absolute;
+    margin-left: 65.5%;
+    margin-top: -1.3%;
+   
+}
+#lens{
+    position: absolute;
+    width: 55px;
+    margin-left: 69%;
+    margin-top: -0.5%;
+   
+}
+
+#search{
+    width: 43%;
+    margin-left: 29%;
+    padding: 1%;
+    margin-top: -15%;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px inherit black;
+    cursor:progress;
+    color: #e3d8d8;
+}
+
+#alertchamber{
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    position: fixed;
+     top: 0%;
+     width: 100%;
+     background-color: #d82323;
+}
+
+#alert{
+   position: absolute;
+    width: 35px;
+    height: auto;
+    margin-left: 35%;
+}
+
+#warn{
+    font-size: 18px;
+    box-shadow: #000000;
+    margin-left:42%;
+    
+}
+#avathar{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    
+}
+#avathar img{
+    width: 220px;
+    height: 250px;
+    border-radius: 130px;
+    position: relative;
+    border: 16px solid rgb(0, 0, 0);
+   
+}
+
+
+
+#fulldevelop{
+    background-color: #000000;
+}
+
+
+#develop{
+    text-align: center;
+    font-size: 34px;
+    color: #d83737;
+}
+#sections{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #030202;
+    height: 550px;
+}
+#sections3{
+   width: 18%;
+   height: fit-content;
+   border: 3px solid white;
+   margin-left: 12%;
+   background-color: #00a990;
+}
+#colo2{
+    
+   height: fit-content;
+   border: 3px solid white;
+   margin-left: 0%;
+    background-color:#02e830;
+}
+#colo3{
+    
+   height: fit-content;
+   border: 3px solid white;
+   margin-left: 0%;
+    background-color:#5c24e8;
+}
+#tilte{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+#htmllogo{
+    width: 150px;
+    position: relative;
+    margin-left: 15%;
+
+}
+#htmllogo, #htmltext{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: justify;
+    padding: 2%;
+    
+}
+
+
+
+#last{
+    background-color: #000000;
+}
+
+#footer{
+     display: flex;
+     flex-wrap: wrap
+}
+
+#footer2{
+    width: 13%;
+    height:220px;
+    margin: 9%;
+}
+#pww{
+    width: 100px;
+    
+}
+#pww ,h2{
+    color: white;
+    font-size: 18px;
+    text-align: start;
+    margin-left: 18%;
+
+}
+#iso{
+    width: 250px;
+}
+
+#pwsk{
+    border-bottom: 3px solid orange;
+    padding-bottom: 4%;
+}
+
+ul {
+    list-style: none;
+}
+ul li{
+    text-decoration: none;
+    color: white; 
+    padding: 8px;
+}
